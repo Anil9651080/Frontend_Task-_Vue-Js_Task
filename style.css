@@ -1,0 +1,157 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+footer {
+    background-color: hsl(220, 14%, 75%);
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-image {
+    flex: 1;
+    /* Add styles for the product image */
+}
+
+.product-details {
+    flex: 1;
+    padding: 0 20px;
+    /* Add styles for the product details */
+}
+
+h1 {
+    color: hsl(26, 100%, 55%);
+}
+
+p {
+    color: hsl(220, 9%, 45%);
+}
+
+.price {
+    color: hsl(26, 100%, 55%);
+}
+
+.buy-button {
+    background-color: hsl(26, 100%, 55%);
+    color: hsl(0, 0%, 100%);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.buy-button:hover {
+    background-color: hsl(25, 100%, 94%);
+}
+
+
+
+
+
+
+
+
+
+
+/* Heaher */
+/* public/css/styles.css */
+
+.site-header {
+    background-color: hsl(220, 14%, 75%);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 100px;
+    /* Adjust the max-width as needed */
+    height: auto;
+}
+
+.main-navigation ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.main-navigation li {
+    margin-right: 20px;
+}
+
+.main-navigation a {
+    text-decoration: none;
+    color: hsl(220, 9%, 45%);
+}
+
+.main-navigation a:hover {
+    color: hsl(26, 100%, 55%);
+}
+
+
+
+
+
+
+
+
+/* Footer Section CSS */
+/* public/css/styles.css */
+
+.site-footer {
+    background-color: hsl(220, 14%, 75%);
+    color: hsl(0, 0%, 100%);
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img {
+    max-width: 100px;
+    /* Adjust the max-width as needed */
+    height: auto;
+}
+
+.footer-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.footer-links li {
+    margin-right: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+.footer-links a:hover {
+    color: hsl(26, 100%, 55%);
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+}
